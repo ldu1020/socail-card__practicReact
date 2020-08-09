@@ -2,13 +2,14 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import SnsCard from "./sns-card/sns-card";
+import Calc from "./calculater/Calc";
 import * as serviceWorker from "./serviceWorker";
 import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Calc />
   </React.StrictMode>,
   document.getElementById("root")
 );

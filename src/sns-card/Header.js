@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import personImg from "./imgs/person.png";
+import personImg from "./person.png";
 import styled from "styled-components";
 
 const PersonImg = styled.img`
